@@ -1,6 +1,6 @@
 ## 🪰 Housefly Sim
 
-# ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 Housefly Sim is provided strictly for educational and research purposes.
 It does not represent a certified flight model, safety system, or real-world control mechanism.

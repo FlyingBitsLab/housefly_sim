@@ -18,12 +18,10 @@ module.exports = {
     "plugin:jest/recommended"
   ],
   rules: {
-    // Force license header:
     "header/header": [
       "error",
       "block"    
     ],
-    // your existing rules:
     "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "@typescript-eslint/ban-ts-comment": "off",
     "jest/expect-expect": "warn"

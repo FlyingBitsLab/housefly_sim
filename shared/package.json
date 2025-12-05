@@ -1,0 +1,55 @@
+{
+  "name": "@flyingbitslab/housefly-sim-shared",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf dist",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlyingBitsLab/housefly_sim.git"
+  },
+  "homepage": "https://github.com/FlyingBitsLab/housefly_sim#readme",
+  "bugs": {
+    "url": "https://github.com/FlyingBitsLab/housefly_sim/issues"
+  },
+  "keywords": [
+    "FlyingBitsLab",
+    "housefly",
+    "simulator",
+    "drone"
+  ],
+  "author": "FlyingBitsLab",
+  "license": "GPL-3.0-or-later",
+  "files": [
+    "dist"
+  ],
+  "description": "Shared TypeScript types, interfaces and utilities for the Housefly simulator web app.",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.48.1",
+    "@typescript-eslint/parser": "^8.48.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-header": "^3.1.1",
+    "eslint-plugin-jest": "^29.2.1",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
